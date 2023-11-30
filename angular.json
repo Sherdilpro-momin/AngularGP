@@ -13,7 +13,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/angular-gp/",
             "outputPath": "dist/angular-gp",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -91,6 +90,11 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "options": {
+            "baseHref": "/angular-gp/"
           }
         }
       }
