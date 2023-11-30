@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - uses: actions/setup-node@v1 #this installs node and npm for us
+    - uses: actions/setup-node@v1 #this installs node and npm for this
       with:
         node-version: '16.x'
     - uses: actions/cache@v1
